@@ -1,0 +1,10 @@
+.open-seo-shared-info{box-sizing:border-box;clear:both;width:100%;margin:40px 0 0;padding:32px 24px;border-top:1px solid #dcdcde;background:#f8fafb;color:#1d2327;font:400 16px/1.65 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;text-align:left;overflow-wrap:anywhere}
+.open-seo-shared-info .open-seo-shared-inner{max-width:1120px;margin:0 auto}
+.open-seo-shared-info h2{margin:0 0 16px;padding:0;color:inherit;font-family:inherit;font-size:24px;font-weight:600;line-height:1.3}
+.open-seo-shared-info p{margin:0 0 16px;color:inherit;font-size:inherit;line-height:inherit}
+.open-seo-shared-info ul{padding-left:24px;margin:0 0 16px;list-style:disc}
+.open-seo-shared-info li{margin:6px 0;color:inherit;font-size:inherit;line-height:inherit}
+.open-seo-shared-info a{color:#135e96;text-decoration:underline;overflow-wrap:anywhere}
+.open-seo-shared-info a:focus-visible{outline:2px solid currentColor;outline-offset:3px}
+@media(max-width:600px){.open-seo-shared-info{padding:24px 16px;margin-top:24px}}
+

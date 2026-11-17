@@ -1,0 +1,17 @@
+Open SEO + GEO 1.3.0 is an independent GPLv3-or-later derivative.
+
+Original SEO engine: Rank Math SEO 1.0.277.2, supplied by the user.
+Copyright (C) 2019-2023 Rank Math and its original contributors.
+Inherited portions include code attributed to Yoast BV and other contributors
+in their source headers. Bundled dependencies retain their own license notices.
+
+Open SEO additions and modifications: Open SEO contributors, 2026-11-16.
+See CHANGES.md and UI-BRANDING-CHANGES.txt for the modification record.
+See COPYING for GPLv3 terms and each dependency's license for its terms.
+
+This is not an official Rank Math release and is not affiliated with or endorsed
+by Rank Math. No trademark ownership or paid-service entitlement is claimed.
+Original notices remain in source comments and license files. The visible
+product identity of this derivative is Open SEO.
+
+

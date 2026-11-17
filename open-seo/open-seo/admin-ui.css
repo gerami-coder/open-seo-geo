@@ -1,0 +1,69 @@
+/* Open SEO native admin layout. Scoped to independent screens. */
+.open-seo-admin{--os-border:#dce3eb;--os-text:#263b52;--os-muted:#52657b;--os-blue:#2271b1;max-width:1320px;margin:24px 24px 40px 4px;color:var(--os-text)}
+.open-seo-admin *{box-sizing:border-box}
+.open-seo-admin h1{font-size:26px;line-height:1.3;font-weight:600;margin:0 0 12px;padding:0}
+.open-seo-admin h2{font-size:18px;line-height:1.4;margin:0 0 16px;color:var(--os-text)}
+.open-seo-admin h3{font-size:15px;line-height:1.4;margin:24px 0 12px}
+.open-seo-admin p{font-size:14px;line-height:1.65;margin:12px 0;overflow-wrap:anywhere}
+.open-seo-admin .open-seo-lead{font-size:15px;color:var(--os-muted);margin-bottom:20px}
+.open-seo-admin .description{font-size:13px;color:var(--os-muted)}
+.open-seo-admin a:focus-visible,.open-seo-admin summary:focus-visible,.open-seo-admin button:focus-visible{outline:2px solid var(--os-blue);outline-offset:3px}
+.open-seo-admin .open-seo-page-links{display:flex;flex-wrap:wrap;gap:12px;align-items:center;padding:0 0 18px;margin:0 0 20px;border-bottom:1px solid var(--os-border);font-size:14px}
+.open-seo-admin .open-seo-card,.open-seo-admin .open-seo-report{background:#fff;border:1px solid var(--os-border);border-radius:6px;padding:24px;margin:0 0 20px;box-shadow:0 1px 2px #1d232704;min-width:0}
+.open-seo-admin .open-seo-report{margin-top:20px}
+.open-seo-admin .open-seo-report-source{color:var(--os-muted);font-size:12px}
+.open-seo-admin .open-seo-report-totals{background:#f3f7fb;border-radius:4px;padding:12px 16px;margin:16px 0}
+.open-seo-admin .open-seo-action-form{display:inline-block;margin:0 8px 12px 0;max-width:100%}
+.open-seo-admin details{border:1px solid var(--os-border);border-radius:5px;margin:16px 0;background:#fff;min-width:0}
+.open-seo-admin summary{padding:16px;font-size:14px;font-weight:600;line-height:1.5;cursor:pointer;overflow-wrap:anywhere}
+.open-seo-admin details[open]>summary{border-bottom:1px solid var(--os-border);background:#f8fafc}
+.open-seo-admin details>p,.open-seo-admin details>ol,.open-seo-admin details>ul,.open-seo-admin details>blockquote{margin:16px 20px}
+.open-seo-admin .open-seo-checklist{padding:0;list-style:none}
+.open-seo-admin .open-seo-check{position:relative;padding:16px 0 16px 44px;margin:0;border-bottom:1px solid #edf0f4}
+.open-seo-admin .open-seo-check::before{content:"";position:absolute;top:16px;left:0;width:28px;height:28px;background:url('assets/health-info.png') center/contain no-repeat}
+.open-seo-admin .open-seo-check-pass::before{background-image:url('assets/health-checked.png')}
+.open-seo-admin .open-seo-check:last-child{border-bottom:0}
+.open-seo-admin .open-seo-check-pass{border-left-color:#2e8968}
+.open-seo-admin .open-seo-check-unknown{border-left-color:#7b8a9b}
+.open-seo-admin .open-seo-check strong{display:block;font-size:14px;line-height:1.5}
+.open-seo-admin .open-seo-check p{margin:5px 0 0;color:var(--os-muted)}
+.open-seo-admin .open-seo-review-form{display:block;width:100%;max-width:none;margin:0;padding:20px}
+.open-seo-admin .open-seo-review-field{padding:20px;background:#fff;border:1px solid var(--os-border);border-radius:5px;margin:0 0 20px;min-width:0}
+.open-seo-admin .open-seo-current{margin:0 0 20px;padding-bottom:12px;border-bottom:1px solid #e9eef4;white-space:pre-wrap}
+.open-seo-admin .open-seo-review-field label,.open-seo-admin .open-seo-field>label,.open-seo-admin .open-seo-picker-search>label{display:block;font-size:14px;font-weight:600;margin:0 0 8px;line-height:1.5}
+.open-seo-admin .open-seo-review-field textarea,.open-seo-admin .open-seo-field textarea,.open-seo-admin .open-seo-field input,.open-seo-admin .open-seo-picker-search input{display:block;width:100%!important;max-width:none!important;min-width:0;border:1px solid #aab8c8;border-radius:4px;padding:10px 12px;font-size:14px;line-height:1.6;font-family:inherit;background:#fff;color:var(--os-text);resize:vertical;margin:0}
+.open-seo-admin .open-seo-review-field textarea{min-height:80px}
+.open-seo-admin .open-seo-review-field textarea[name=description]{min-height:132px}
+.open-seo-admin textarea:focus,.open-seo-admin input:focus{border-color:var(--os-blue);box-shadow:0 0 0 1px var(--os-blue);outline:0}
+.open-seo-admin .open-seo-content-grid{display:grid;grid-template-columns:minmax(0,1.5fr) minmax(300px,1fr);gap:24px;align-items:start}
+.open-seo-admin .open-seo-content-grid>div,.open-seo-admin .open-seo-preview-column{min-width:0}
+.open-seo-admin .open-seo-card-heading{display:flex;gap:12px;align-items:center;margin-bottom:16px}
+.open-seo-admin .open-seo-card-heading h2{margin:0}
+.open-seo-admin .open-seo-step{display:inline-flex;align-items:center;justify-content:center;flex:0 0 28px;height:28px;border-radius:50%;background:#eef5fb;color:#135e96;font-size:13px;font-weight:600}
+.open-seo-admin .open-seo-field{margin:24px 0}
+.open-seo-admin .open-seo-field:last-child{margin-bottom:0}
+.open-seo-admin .open-seo-field .description{margin:8px 0 0}
+.open-seo-admin .open-seo-picker-results{border:1px solid var(--os-border);border-radius:4px;max-height:420px;overflow:auto}
+.open-seo-admin .open-seo-picker-results:empty{border:0}
+.open-seo-admin .open-seo-picker-row{display:flex;align-items:flex-start;gap:12px;padding:14px;border-bottom:1px solid var(--os-border);cursor:pointer}
+.open-seo-admin .open-seo-picker-row:last-child{border:0}
+.open-seo-admin .open-seo-picker-row:has(input:checked){background:#f0f6fc}
+.open-seo-admin .open-seo-picker-row input{flex:0 0 auto;margin:4px 0 0}
+.open-seo-admin .open-seo-picker-row span{min-width:0;overflow-wrap:anywhere}
+.open-seo-admin .open-seo-picker-row strong,.open-seo-admin .open-seo-picker-row small{display:block;font-size:13px;line-height:1.6}
+.open-seo-admin .open-seo-picker-row small{color:var(--os-muted);font-size:12px}
+.open-seo-admin .open-seo-picker-pagination{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:16px}
+.open-seo-admin .open-seo-selected-pages{list-style:none;padding:0;margin:0}
+.open-seo-admin .open-seo-selected-pages li{display:flex;align-items:baseline;justify-content:space-between;gap:16px;padding:10px 0;margin:0;border-bottom:1px solid #edf0f4;overflow-wrap:anywhere}
+.open-seo-admin .open-seo-selected-pages .button-link{flex:0 0 auto}
+.open-seo-admin #geo-selected-count{font-weight:400;color:var(--os-muted)}
+.open-seo-admin .open-seo-enable{display:flex;align-items:flex-start;gap:10px;font-size:14px;font-weight:600;line-height:1.6}
+.open-seo-admin .open-seo-enable input{margin:4px 0 0;flex:0 0 auto}
+.open-seo-admin .open-seo-save-bar{display:flex;align-items:center;flex-wrap:wrap;gap:16px;margin-top:24px}
+.open-seo-admin #geo-save-note{color:var(--os-muted);font-size:13px}
+.open-seo-admin #geo-content-preview{border:1px solid var(--os-border);border-radius:5px;overflow:hidden;margin-top:20px}
+.open-seo-admin #geo-content-preview .open-seo-shared-info{margin:0;border:0;padding:24px;font-size:14px}
+.open-seo-admin #geo-content-preview h2{font-size:21px}
+.open-seo-admin #open-seo-health-progress{padding:16px;margin:8px 0 20px;border:1px solid var(--os-border);border-radius:5px;background:#fff;line-height:1.6}
+@media(max-width:1100px){.open-seo-admin .open-seo-content-grid{grid-template-columns:minmax(0,1fr)}.open-seo-admin .open-seo-preview-column{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px}}
+@media(max-width:782px){.open-seo-admin{margin:20px 12px 32px 0}.open-seo-admin .open-seo-card,.open-seo-admin .open-seo-report{padding:18px}.open-seo-admin .open-seo-preview-column{display:block}.open-seo-admin .open-seo-review-form{padding:12px}.open-seo-admin .open-seo-review-field{padding:16px}.open-seo-admin .button{white-space:normal;height:auto;min-height:36px}.open-seo-admin .open-seo-content-grid{gap:0}.open-seo-admin summary{padding:14px}.open-seo-admin details>p,.open-seo-admin details>ul,.open-seo-admin details>ol{margin:14px}.open-seo-admin .open-seo-save-bar .button-hero{padding:8px 16px;line-height:1.6;min-height:44px}}
